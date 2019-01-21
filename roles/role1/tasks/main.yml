@@ -1,0 +1,4 @@
+---
+- name: show a variable
+  debug:
+    msg: "variable my_config_var is: {{ my_config_var }}"
